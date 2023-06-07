@@ -1,0 +1,32 @@
+.movie-card {
+    margin: 1.5%;
+    margin-left: 5%;
+    background-color: #666666;
+    box-shadow: 0px 0px 10px 10px rgb(20, 20, 20);
+    border-radius: 8%;
+    width: 20%;
+    padding-bottom: 1.5%;
+    text-align: center;
+}
+
+.movie-card:hover {
+    width: 22%;
+    filter: brightness(120%);
+}
+
+img {
+    border-radius: 8%;
+    margin-top: 5%;
+    width: 50%;
+}
+
+button {
+    background-color: transparent;
+    color: rgb(232, 232, 232);
+    border: 2px solid rgb(232, 232, 232);
+}
+
+button:hover {
+    background-color: rgb(232, 232, 232);
+    color: rgb(34, 34, 34);
+}

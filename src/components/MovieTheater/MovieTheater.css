@@ -1,0 +1,33 @@
+body {
+    background-color: gray;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.video-player-div {
+    width: 80%;
+    height: 80vh;
+}
+
+.recommended {
+    width: 10%;
+    background-color: grey;
+}
+
+.plus-button {
+    background: transparent;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 1 px solid black;
+    font-size: x-large;
+}
+
+.plus-button:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)) transparent;
+    border: 1 px solid white;
+}

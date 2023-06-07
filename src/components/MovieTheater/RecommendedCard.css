@@ -1,0 +1,19 @@
+.recommended-card {
+    background-color: transparent;
+    width: 10vw;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    font-size: small;
+    margin-bottom: 1vh;
+}
+
+.recommended-card:hover {
+    filter: brightness(150%);
+}
+
+.recommended-card img {
+    width: 50%;
+
+
+}
