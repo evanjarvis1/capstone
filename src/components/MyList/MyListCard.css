@@ -1,0 +1,53 @@
+.my-list-movie-card {
+    margin: 1.5%;
+    margin-left: 5%;
+    background-color: #040303;
+    box-shadow: 0px 0px 10px 5px #4F000B;
+    border-radius: 8%;
+    width: 20%;
+    padding-bottom: 1.5%;
+    text-align: center;
+}
+
+/* .movie-card:hover {
+    width: 20%;
+    filter: brightness(110%);
+} */
+
+img {
+    border-radius: 8%;
+    margin-top: 5%;
+    width: 80%;
+}
+
+button {
+    background-color: transparent;
+    color: rgb(232, 232, 232);
+    border: 2px solid rgb(232, 232, 232);
+}
+
+button:hover {
+    background-color: rgb(232, 232, 232);
+    color: rgb(34, 34, 34);
+}
+
+h3 {
+    margin-bottom: 5%;
+}
+
+.trash-button {
+    color: #4F000B;
+    background-color: transparent;
+    font-size: x-large;
+    border: none;
+    position: relative;
+    bottom: -10;
+}
+
+.trash-button:hover {
+    /* filter: brightness(150%); */
+    color: rgb(255, 111, 111);
+    background-color: transparent;
+    font-size: x-large;
+    border: none;
+}

@@ -1,16 +1,26 @@
-.auth-form {
-    position: absolute;
-    top: 40%;
-    left: 40%;
-    background-color: aqua;
+.login-div {
+    background-color: #4F000B;
     border: 1px solid white;
+    border-radius: 25px;
+    padding: 2%;
+    width: 20%;
+    position: absolute;
+    left: 40%;
+    top: 30%;
     display: flex;
     flex-direction: column;
-    padding: 2%;
+    justify-content: center;
+    text-align: center;
 }
 
-.auth-form input {
-    width: 10vw;
-    margin-bottom: 1vh;
+.login-div h1 {
+    color: white;
+    font-size: 5vh;
 }
 
+.login-div button {
+    width: 80%;
+    height: 5vh;
+    border: 3px solid white;
+    margin-left: 10%;
+}

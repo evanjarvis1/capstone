@@ -2,17 +2,18 @@ import { Squash as Hamburger } from 'hamburger-react'
 import { useState } from 'react'
 import { NavLink } from "react-router-dom";
 import { useAuth0 } from '@auth0/auth0-react'
-import './HomeHeader.css'
+import './MyListHeader.css'
 
-const HomeHeader = () => {
+const MyListHeader = () => {
 
     const [open, setOpen] = useState(false);
-    console.log(open)
+    
+    const {user} = useAuth0()
     
     return (
         <div className="home-header">
             <div className="logo">
-                <h2>Movie Site</h2>
+                <h2>{user.given_name}'s Movie List</h2>
             </div>
             <div className="menu">
                 <Hamburger onToggle={() => {setOpen(!open)
@@ -30,4 +31,4 @@ const HomeHeader = () => {
     )
 }
 
-export default HomeHeader;
+export default MyListHeader;

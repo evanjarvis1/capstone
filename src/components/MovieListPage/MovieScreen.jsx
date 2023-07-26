@@ -3,6 +3,7 @@ import './MovieScreen.css'
 
 const MovieScreen = (props) => {
     let movieList = props.movieList
+    
 
     const displayMovies = movieList.map((movie, index) => {
 

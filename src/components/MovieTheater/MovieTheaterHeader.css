@@ -1,14 +1,23 @@
-.home-header {
+.movie-theater-header {
 
     width: 100%;
     height: 10%;
-    background: linear-gradient(to top, transparent, black 100%);
+    background: linear-gradient(to top, transparent, #4F000B 100%);
     color: white;
     position: relative;
     z-index: 100;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+
+.back {
+    margin-left: 0.5%;
+    font-size: x-large;
+}
+
+.menu {
+    margin-right: 0.5%;
 }
 
 .dropdown {

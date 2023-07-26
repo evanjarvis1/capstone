@@ -1,18 +1,18 @@
+import { useState } from "react";
 import { Squash as Hamburger } from 'hamburger-react'
-import { useState } from 'react'
 import { NavLink } from "react-router-dom";
+import {AiOutlineArrowLeft} from 'react-icons/ai'
 import { useAuth0 } from '@auth0/auth0-react'
-import './HomeHeader.css'
+import './MovieTheaterHeader.css'
 
-const HomeHeader = () => {
+const MovieTheaterHeader = () => {
 
     const [open, setOpen] = useState(false);
-    console.log(open)
-    
+
     return (
-        <div className="home-header">
-            <div className="logo">
-                <h2>Movie Site</h2>
+        <div className="movie-theater-header">
+            <div className="back">
+            <NavLink to="/MovieListPage"><AiOutlineArrowLeft /> Back to Movies</NavLink>
             </div>
             <div className="menu">
                 <Hamburger onToggle={() => {setOpen(!open)
@@ -30,4 +30,4 @@ const HomeHeader = () => {
     )
 }
 
-export default HomeHeader;
+export default MovieTheaterHeader;

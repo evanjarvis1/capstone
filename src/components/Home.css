@@ -24,10 +24,27 @@
     display: flex;
     flex-direction: column;
   }
+
+  .landing-page-text {
+    color: #D3D0CB;
+    margin-top: 10%;
+    font-size: x-large;
+    animation: fadeIn 2s;
+  }
+
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+  .landing-page-text h1 {
+    font-size: 15vh;
+    color: #D3D0CB;
+  }
   
   .home-search {
     position: relative;
-    top: 60%;
+    top: 10%;
   }
 
   .home-searchbar {
@@ -48,14 +65,63 @@
 
   #page-2 {
     color: white;
-    background-color: rgb(65, 65, 65);
+    background-color: #040303;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .page-2-text {
+    font-size: xxx-large;
   }
 
   #page-3 {
-    /* do noting */
+    color: white;
+    background-image: linear-gradient(to bottom right, #040303, #4F000B, #0B4F6C);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .page-3-text {
+    font-size: xxx-large;
+    margin-left: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .log-in-button-div {
+    margin-bottom: 20%;
+    width: 30%;
+    background-color: #4F000B;
+    text-align: center;
+    padding: 10px;
+    border: 2px solid #D3D0CB;
+  }
+
+  .log-in-button-div:hover {
+    background-color: #D3D0CB;
+    color: black;
   }
 
   #page-4 {
-    color: white;
-    background-color: rgb(65, 65, 65);
+    color: #D3D0CB;
+    background-image: url(/src/components/triangles2.svg);
+    font-size: xxx-large;
+    text-align: center;
+  }
+
+  .page-4-text h1 {
+    font-size: 20vh;
+  }
+
+  .popcorn-div {
+    width: 20%;
+    margin-left: 10%;
+    margin-top: 20%;
+  }
+
+  .popcorn-image {
+ 
+    transform: rotate(20deg);
   }
